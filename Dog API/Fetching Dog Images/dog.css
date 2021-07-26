@@ -1,0 +1,49 @@
+body
+{
+    overflow-x: hidden;
+}
+.display
+{
+    margin:20px auto 30px;
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    padding: 50px;
+    background:linear-gradient(to right,#F1FFFE,#F9FBF5);
+}
+
+.display-inside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:70%;
+    /* border: 1px solid black; */
+    height:30px;
+}
+
+.display-inside form select
+{
+    width:240px;
+    height:30px;
+    font-size: 1.2rem;
+}
+
+#sub-breed-menu
+{
+    display:none;
+}
+
+#image-display
+{
+    margin:auto;
+    /* border: 1px solid black; */
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,70 @@
+body
+{
+    overflow-x: hidden;
+}
+.display
+{
+    margin:20px auto 30px;
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    padding: 50px;
+    background:linear-gradient(to right,#F1FFFE,#F9FBF5);
+}
+
+.display-inside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:70%;
+    /* border: 1px solid black; */
+    height:30px;
+}
+
+.button-display
+{
+    height:auto;
+    width:90%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.button-display-inside
+{
+    width:100%;
+    height:40px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button-display-inside >div
+{
+    width:25%;
+    height: 100%;
+}
+
+.button-style
+{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+#image-display
+{
+    margin:auto;
+    /* border: 1px solid black; */
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
