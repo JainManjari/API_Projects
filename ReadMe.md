@@ -1,6 +1,6 @@
 # API Projects
 
-It is the collection of API Based Projects that did during my final year at VIT Vellore. 
+It is the collection of API Based Projects that I did during my final year at VIT Vellore. 
 
 It used the API link to retrieve data and also receives optional parameters from the user either provided through Postman or the form present in UI.
 
